@@ -1,0 +1,145 @@
+*,::before ,::after{
+    margin:auto;
+    padding: auto;
+    width: 1160px;
+    
+
+}
+@font-face {
+    font-family:'Times New Roman', Times, serif ;
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+@font-face {
+    font-family:Arial, Helvetica, sans-serif ;
+    src: url(https://fonts.google.com/specimen/Lato);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#782221;
+    list-style: none;
+    color: white;
+}
+address{
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: larger;
+    height: 90px;
+    background-color: #2c1d27;  
+}
+
+a{
+    color:white;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+a:hover{
+color: rgba(149, 120, 83, 0.777);
+text-decoration-line: underline;
+
+}
+.personnel{
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgb(45, 179, 179);
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+.personnel:hover{
+    cursor: pointer;
+    cursor: zoom-out;
+    width: 300px;
+    transition: ease-out 3s;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+#items1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0;
+    width: 350px;
+    height: 600px;
+    background-color:#782221;
+    color: white;
+}  
+#items1,h3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 0;
+    width:350px;
+}
+
+section,ul li{
+    list-style: none; 
+}
+p{
+    width: 300px;
+    margin-left: 20px;
+}
+
+h3{ 
+    width: 250px;
+    text-align: center;
+    background-color: #dbc2a4;
+}
+#items2{
+    display: flex;
+    flex-direction:column;
+    margin-right:10px;
+    margin-top: 0px;
+    padding-left: 30px;
+    height: 550px; 
+}
+article,.box:hover {
+     cursor:pointer ;
+     border-right-color: 2px solid rgb(89, 4, 11);
+     font-weight:bold;
+}
+.img1:hover{
+   opacity: 0.30;
+   
+}
+
+.img2:hover{
+    opacity: 0.30;
+    
+ }
+ .img3:hover{
+    opacity: 0.30;
+    
+ }
+footer{
+    
+    background-color:#782221 ; 
+    height: 100px;
+    color: rgb(233, 223, 223); 
+    text-align: center;
+    font-size:medium;
+}
+
+.img1,.img2,.img3{ 
+    width:25px;
+    height:25px;   
+}
+
+
+
+
+@media screen and (min-width: 800px) 
+{
+    .body{
+        width: 90%;
+        display: flex;
+        flex-direction: 1 column;
+    }
+}
